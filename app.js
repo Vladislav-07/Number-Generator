@@ -34,7 +34,7 @@ function result() {
   h1.innerHTML = number
 }
 
-function sbros() {
+function reset() {
   min = 1
   max = 10
 
