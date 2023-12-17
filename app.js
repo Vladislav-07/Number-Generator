@@ -29,9 +29,9 @@ function minusMax() {
   maxTitle.innerHTML = 'До: ' + max
 }
 
-function result() {
-  let number = Math.floor(Math.random() * (max - min + 1)) + min
-  h1.innerHTML = number
+function generate() {
+  let result = Math.floor(Math.random() * (max - min + 1)) + min
+  h1.innerHTML = result
 }
 
 function reset() {
